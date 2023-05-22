@@ -10,6 +10,6 @@ Make a note of and keep in mind:
 	* Core Mechanic - e.g. Move and dodge obstacles
 	* Game Loop - e.g. Get from A to B without hitting obstacles
 	
-Obstacle Game:
+Obstacle Game: Bricky Road
 	Character Name: Bricky
 	
