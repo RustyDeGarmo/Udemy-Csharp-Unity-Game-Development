@@ -15,7 +15,6 @@ public class Mover : MonoBehaviour
     void Update()
     {
         MovePlayer();
-        Debug.Log(Time.time + " seconds have passed");
     }
 
     void PrintInstruction()
