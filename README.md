@@ -20,14 +20,14 @@ Core Mechanic: Move and dodge obstacles
 Game Loop: Get from A to B without hitting obstacles
 
 
-2. Ship Shapes
-
-Character Name: Ricky the Rocket
-Player Experience: Precision/Skillfull
-Core Mechanic: Skillfully fly spaceship and avoid environmental hazards
-Game Loop: Get from A to B to beat a level, progress levels to beat the game. If the player dies on any level they restart that level. Currently the player has infinite lives.
-	
-Theme:
+2. Ship Shapes  
+  
+Character Name: Ricky the Rocket  
+Player Experience: Precision/Skillfull  
+Core Mechanic: Skillfully fly spaceship and avoid environmental hazards  
+Game Loop: Get from A to B to beat a level, progress levels to beat the game. If the player dies on any level they restart that level. Currently the player has infinite lives.  
+  
+Theme:  
 Ricky is a prototype AI spacecraft exploring the depths of an unknown planet. His mission was to report on the condition of the planet but he went too deep and now the transmission can't break through and he has to try to escape. It almost seems like the environment itself is animated with a malevolent desire to keep Ricky from escaping! It's as if the planet itself lulled Ricky into a false sense of safety to get him to go too deep. Now, the closer Rickey gets to escaping the harder the planet tries to keep him.
 
 
