@@ -1,5 +1,5 @@
 # Udemy-Csharp-Unity-Game-Development
-Udemy course for learning game development with C# and Unity
+Udemy course for learning game development with C# and Unity. I'm using this to take some notes and keep track of my design ideas, etc.
 
 Key Points to Remember:
 
