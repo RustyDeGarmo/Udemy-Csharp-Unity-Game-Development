@@ -347,10 +347,11 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/Dropper.cs"
-"Assets/Mover.cs"
-"Assets/ObjectHit.cs"
-"Assets/Scorer.cs"
+"Assets/Scripts/Dropper.cs"
+"Assets/Scripts/Mover.cs"
+"Assets/Scripts/ObjectHit.cs"
+"Assets/Scripts/Scorer.cs"
+"Assets/Scripts/Spinner.cs"
 -langversion:9.0
 
 /deterministic
