@@ -6,14 +6,12 @@ public class Movement : MonoBehaviour
 {
     [SerializeField] float thrustForce = 1000f;
     [SerializeField] float turnSpeed = 50f;
-    float localTime;
     Rigidbody rb;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        localTime = Time.deltaTime;
     }
 
     // Update is called once per frame
@@ -29,7 +27,7 @@ public class Movement : MonoBehaviour
 
         if(Input.GetKey(KeyCode.Space))
         {
-            rb.AddRelativeForce(Vector3.up * thrustForce * localTime);
+            rb.AddRelativeForce(Vector3.up * thrustForce * Time.deltaTime);
         }
     }
 
@@ -39,11 +37,18 @@ public class Movement : MonoBehaviour
 
         if(Input.GetKey(KeyCode.A))
         {
-            rb.AddRelativeTorque(Vector3.forward * turnSpeed * localTime);
-        }else if(Input.GetKey(KeyCode.D))
+            ApplyRotation(turnSpeed);
+        }
+        else if(Input.GetKey(KeyCode.D))
         {
-            rb.AddRelativeTorque(Vector3.back * turnSpeed * localTime);
+            ApplyRotation(-turnSpeed);
         }
     }
 
+    void ApplyRotation(float rotationThisFrame)
+    {
+        rb.freezeRotation = true; //freeze rotation to allow controls to rotate
+        transform.Rotate(Vector3.forward * rotationThisFrame * Time.deltaTime);
+        rb.freezeRotation = false; //unfreeze so physics can apply
+    }
 }

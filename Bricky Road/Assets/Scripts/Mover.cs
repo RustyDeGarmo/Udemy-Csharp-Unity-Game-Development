@@ -5,10 +5,13 @@ using UnityEngine;
 public class Mover : MonoBehaviour
 {
     [SerializeField] float moveSpeed = 10f;
+    Rigidbody rb;
+
     // Start is called before the first frame update
     void Start()
     {
         PrintInstruction();
+        rb = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
