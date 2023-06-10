@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 440504368}
   - component: {fileID: 440504363}
   - component: {fileID: 2062460845}
+  - component: {fileID: 2062460852}
   m_Layer: 0
   m_Name: Player (Ricky the Rocket)
   m_TagString: Untagged
@@ -140,7 +141,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: f88c12267f43fc849b33686856dd27e7, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 505cd957e0fb09a499ddf0556e7a4a5a, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -226,3 +227,15 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2062460852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 491451318789358495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c63442b1fde33144fbf941e90499341d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
