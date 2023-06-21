@@ -15,27 +15,37 @@ public class CollisionHandler : MonoBehaviour
     AudioSource audioSource;
 
     bool isTransitioning = false;
+    bool debugMode = false;
 
     void Start() 
     {
         audioSource = GetComponent<AudioSource>();
     }
 
+    void Update()
+    {
+        DebugControls();
+
+    }
+
     void OnCollisionEnter(Collision other) 
     {
-        if(isTransitioning){ return; }
-        switch(other.gameObject.tag)
+        if(isTransitioning || debugMode){ return; }
+        
         {
-            case "Friendly":
-                Debug.Log("This thing is friendly");
-                break;
-            case "Finish":
-                Debug.Log("You have made it through this challenge!");
-                StartWinSequence();
-                break;
-            default:
-                StartCrashSequence();
-                break;
+            switch(other.gameObject.tag)
+            {
+                case "Friendly":
+                    Debug.Log("This thing is friendly");
+                    break;
+                case "Finish":
+                    Debug.Log("You have made it through this challenge!");
+                    StartWinSequence();
+                    break;
+                default:
+                    StartCrashSequence();
+                    break;
+            }
         }
     }
 
@@ -78,6 +88,22 @@ public class CollisionHandler : MonoBehaviour
         else
         {
             SceneManager.LoadScene(getCurrentLevel() + 1);
+        }
+    }
+
+    void DebugControls()
+    {
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            LoadNextLevel();
+        }
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            ReloadLevel();
+        }
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            debugMode = !debugMode;
         }
     }
 }

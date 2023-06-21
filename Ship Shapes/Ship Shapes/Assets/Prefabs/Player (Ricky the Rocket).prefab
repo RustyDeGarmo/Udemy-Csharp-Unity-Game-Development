@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 440504363}
   - component: {fileID: 2062460845}
   - component: {fileID: 2062460852}
+  - component: {fileID: 470464766}
   m_Layer: 0
   m_Name: Player (Ricky the Rocket)
   m_TagString: Untagged
@@ -203,6 +204,18 @@ MonoBehaviour:
   landingPadAudio: {fileID: 8300000, guid: f3a8a0b68d93eb347b925542586eec65, type: 3}
   collisionParticles: {fileID: 3728543267010766569}
   landingPadParticles: {fileID: 2730640871674398027}
+--- !u!114 &470464766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 491451318789358495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af1a34356057bde4788c564941038c0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &804281455562960564
 GameObject:
   m_ObjectHideFlags: 0
