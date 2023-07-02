@@ -20,4 +20,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/5 Mover.unity
     guid: e9bf46082a7129846af40b0e2f776dcd
+  - enabled: 1
+    path: Assets/Scenes/6 Tunnel.unity
+    guid: bd61319aea7dffb458cfb154ebfb86f9
+  - enabled: 1
+    path: Assets/Scenes/7 MovingTunnel.unity
+    guid: f7b350ec2fd38a64fbcbb97325a7570e
+  - enabled: 1
+    path: Assets/Scenes/8 MovingWalls.unity
+    guid: 0136a6f0162a84843b52ce34947ad6e2
+  - enabled: 1
+    path: Assets/Scenes/9 MovingWalls 2.unity
+    guid: 5e59a5ce2286490498268a7c3c895141
+  - enabled: 1
+    path: Assets/Scenes/10 FlyingDebris.unity
+    guid: 184e728a0856e164dad2619a976fc9a7
+  - enabled: 1
+    path: Assets/Scenes/11 FlyingDebris 2.unity
+    guid: 070c1003b56d0264ca5f55eb1fbe7498
   m_configObjects: {}

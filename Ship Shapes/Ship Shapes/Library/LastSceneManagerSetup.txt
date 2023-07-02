@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/5 Mover.unity
+- path: Assets/Scenes/12 Tunnel 2.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
