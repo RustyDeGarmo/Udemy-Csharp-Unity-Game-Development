@@ -41,3 +41,31 @@ Core Feature: Moving from A to B
 8th: Ricky can shoot!  
 9th: Powerups   
 
+
+3. Starship Coyote
+
+Character Name: Yote McRain
+Player Experience: Chaos
+Core Mechanic: Dodge and shoot
+Game Loop: Get as far as possible without dying to beat the high score, infinite runner style. Player starts over from 0 at death.
+
+Theme: Yote is an ace pilot who loves to do barrel rolls. Undetermined if barrel rolls will actually be in the game. Yote must fight through hordes of attacking aliens in an effort to protect his home world.
+
+Planned Features
+Camera Rail - Camera follows a path through the level
+Player Movement - WASD to move horizontally and vertically
+Shooting - Player shoots bullets which do damage to enemies
+Health - Enemies have health that is reduced when the player shoots them
+Enemy Paths - Enemies should travel on paths that are hand placed by the designer
+Score - Points accumulated for destroying enemies
+Game Loop - Player restarts the level upon death
+
+Potential Features
+Multiple levels - Load the next level when completing a level
+Player Shield - Shield that is depleted when enemies hit the player, recharges over time when not being hit
+Pickups - Instant shield recovery, faster firing rate, more projectiles, etc.
+Momentary Invulnerability - After taking damage the player is invincible for a short period
+
+
+
+
